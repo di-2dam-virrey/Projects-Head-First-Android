@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Reemplazamos el código de DetailActivity para mostrar
+    solo el fragment-->
+<!--Cuando Android crea el layout de la activity
+    sustituye la etiqueta fragment por la View devuelta por
+    el método onCreateView()
+    -->
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_frag"
+    android:name="com.example.android.workout.WorkoutDetailFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!--<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/details_activity"/>
+</LinearLayout>-->
